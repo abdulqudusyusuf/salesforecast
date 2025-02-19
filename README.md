@@ -35,11 +35,12 @@ To ensure accuracy and reliability, several data preprocessing steps were perfor
 ![img2](https://github.com/user-attachments/assets/dacb62e2-99fa-46f6-bc10-fe103d234af2)
 ![img3](https://github.com/user-attachments/assets/08906831-4e69-4b0b-b5f9-7df90d91f550)
 <img width="529" alt="img4" src="https://github.com/user-attachments/assets/036b25e3-18cd-4ebc-b2b8-03150336af05" />
-
+<img width="679" alt="img5" src="https://github.com/user-attachments/assets/ff556a92-b435-4073-ac5c-f9a62598a91c" />
+![img6](https://github.com/user-attachments/assets/27bfef57-484b-4096-a4f4-089b485e8850)
+<img width="670" alt="img7" src="https://github.com/user-attachments/assets/a886122a-2115-4d74-9782-c42d14814a79" />
+<img width="669" alt="img8" src="https://github.com/user-attachments/assets/f0bd7b59-5075-487e-aa5e-9ea9133334f3" />
 ![img9](https://github.com/user-attachments/assets/2541f150-d6b8-4bc0-9762-9645e739f436)
 ![img10](https://github.com/user-attachments/assets/96dd899f-3b91-4c07-8128-dff41998a20c)
-
-
 
 
 ## Exploratory Data Analysis
@@ -69,8 +70,26 @@ To predict future sales, a **SARIMAX (Seasonal AutoRegressive Integrated Moving 
 
 ### Model Development
 - **First Iteration:** Used **2015-2018** data as training and forecasted **2019 sales**, though accuracy could not be verified due to missing actual values.
+
+<img width="584" alt="img11" src="https://github.com/user-attachments/assets/ce61857a-1d36-483b-9e24-8f5e6a5b4603" />
+<img width="579" alt="img12" src="https://github.com/user-attachments/assets/8c94654b-75a4-480f-88e2-8b8bee89ec36" />
+<img width="498" alt="img13" src="https://github.com/user-attachments/assets/bd34f34d-8707-47c6-b0cb-67710a93c4db" />
+![img14](https://github.com/user-attachments/assets/01a1479a-d92d-4426-86b2-2fde8ff40f8e)
+
+
 - **Second Iteration:** Used **2015-2017** data for training and **2018** as a test set, achieving a **Mean Absolute Error (MAE) of 38,533.1**, showing significant improvement after tuning.
+
+![img15](https://github.com/user-attachments/assets/25d66c74-cbf0-427d-9ce6-ea387d762b70)
+![img16](https://github.com/user-attachments/assets/b80a31f2-8724-46aa-ab91-d6b14de34951)
+<img width="364" alt="img17" src="https://github.com/user-attachments/assets/69ad255d-d628-427c-bd33-bf5d460d4602" />
+<img width="596" alt="img18" src="https://github.com/user-attachments/assets/a3f7bdfc-7cab-4231-b512-18336295e554" />
+
 - **Final Iteration:** Used **2015-2016** as training and **2017-2018** as test data. Though the model identified trends, it struggled to predict spikes in Q4 sales accurately.
+
+![img19](https://github.com/user-attachments/assets/75af7d0f-4a1d-49d9-bf99-cc3a494aa9ce)
+![img20](https://github.com/user-attachments/assets/88bdc6c3-0caa-4123-b277-72b9f175cc01)
+![img21](https://github.com/user-attachments/assets/b6c42666-d90c-440d-82cb-dad558d88146)
+
 
 Overall, the **second iteration yielded the most accurate results**, demonstrating the importance of incorporating **recent sales behavior** into forecasting models.
 
