@@ -31,6 +31,17 @@ To ensure accuracy and reliability, several data preprocessing steps were perfor
 - **Removing duplicate entries**: To maintain data integrity, duplicate rows were identified and removed.
 - **Feature engineering**: A new variable, **Processing Time**, was created by calculating the difference between **Order Date** and **Ship Date**, providing insights into order processing efficiency.
 
+![img1](https://github.com/user-attachments/assets/a5056ef9-12e8-47c0-a4e9-ce45e2d955ac)
+![img2](https://github.com/user-attachments/assets/dacb62e2-99fa-46f6-bc10-fe103d234af2)
+![img3](https://github.com/user-attachments/assets/08906831-4e69-4b0b-b5f9-7df90d91f550)
+<img width="529" alt="img4" src="https://github.com/user-attachments/assets/036b25e3-18cd-4ebc-b2b8-03150336af05" />
+
+![img9](https://github.com/user-attachments/assets/2541f150-d6b8-4bc0-9762-9645e739f436)
+![img10](https://github.com/user-attachments/assets/96dd899f-3b91-4c07-8128-dff41998a20c)
+
+
+
+
 ## Exploratory Data Analysis
 EDA involved answering key questions such as:
 - What is the overall sales trend from 2015 to 2018?
